@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_cgpa_1689847636801-pr-trigger-input-set
+  identifier: Build_cgpa_1689847636801prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test
+  pipeline:
+    identifier: Build_cgpa_1689847636801
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
